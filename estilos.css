@@ -4,12 +4,13 @@
 body{
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(195, 195, 255);
 }
 #barra-nav{
-    border: 1px solid black;
+    border: 1px solid rgba(129, 148, 211, 0.582);
     height: 80px;
     font-size: 25px;
-    background-color: blue;
+    background-color: rgba(129, 148, 211, 0.842);
 }
 img{
     width: 75px;
@@ -30,9 +31,9 @@ img{
 }
 #barra-nav li a{
     padding: 2px 7px 2px 7px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    border-left: 1px solid white;
+    border-left: 1px solid rgb(0, 0, 0);
 }
 #barra-nav li a:hover{
     background-color: #333333;
